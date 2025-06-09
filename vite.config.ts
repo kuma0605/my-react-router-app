@@ -5,4 +5,10 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
+  server: {
+    hmr: {
+      overlay: true, // 显示错误覆盖层
+    },
+    host: true, // 允许外部访问
+  },
 });
