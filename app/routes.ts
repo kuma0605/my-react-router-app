@@ -8,5 +8,6 @@ export default [
   route("children-demo", "routes/children-demo.tsx"),
   route("scroll-demo", "routes/scroll-demo.tsx"),
   route("hydration-demo", "routes/hydration-demo.tsx"),
+  route("index-demo", "routes/index-demo.tsx"),
   route("demo", "routes/demo.tsx"),
 ] satisfies RouteConfig;

@@ -82,6 +82,18 @@ export default function Home() {
                (Scripts 组件的作用)
              </span>
            </div>
+           
+           <div>
+             <Link 
+               to="/index-demo" 
+               className="inline-block bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600 transition"
+             >
+               理解 Index 路由
+             </Link>
+             <span className="ml-2 text-sm text-gray-600">
+               (默认路由的概念)
+             </span>
+           </div>
           
           <div>
             <Link 
