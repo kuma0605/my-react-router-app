@@ -49,6 +49,18 @@ export default function Home() {
           
           <div>
             <Link 
+              to="/normal-loader" 
+              className="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
+            >
+              测试正常 Loader
+            </Link>
+            <span className="ml-2 text-sm text-gray-600">
+              (正常的数据加载)
+            </span>
+          </div>
+          
+          <div>
+            <Link 
               to="/non-existent-page" 
               className="inline-block bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 transition"
             >
