@@ -6,5 +6,7 @@ export default [
   route("loader-error", "routes/loader-error.tsx"),
   route("normal-loader", "routes/normal-loader.tsx"),
   route("children-demo", "routes/children-demo.tsx"),
+  route("scroll-demo", "routes/scroll-demo.tsx"),
+  route("hydration-demo", "routes/hydration-demo.tsx"),
   route("demo", "routes/demo.tsx"),
 ] satisfies RouteConfig;

@@ -47,17 +47,41 @@ export default function Home() {
             </span>
           </div>
           
-          <div>
-            <Link 
-              to="/normal-loader" 
-              className="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
-            >
-              测试正常 Loader
-            </Link>
-            <span className="ml-2 text-sm text-gray-600">
-              (正常的数据加载)
-            </span>
-          </div>
+                     <div>
+             <Link 
+               to="/normal-loader" 
+               className="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
+             >
+               测试正常 Loader
+             </Link>
+             <span className="ml-2 text-sm text-gray-600">
+               (正常的数据加载)
+             </span>
+           </div>
+           
+           <div>
+             <Link 
+               to="/scroll-demo" 
+               className="inline-block bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 transition"
+             >
+               测试滚动恢复
+             </Link>
+             <span className="ml-2 text-sm text-gray-600">
+               (ScrollRestoration 功能)
+             </span>
+           </div>
+           
+           <div>
+             <Link 
+               to="/hydration-demo" 
+               className="inline-block bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition"
+             >
+               理解 Hydration
+             </Link>
+             <span className="ml-2 text-sm text-gray-600">
+               (Scripts 组件的作用)
+             </span>
+           </div>
           
           <div>
             <Link 
